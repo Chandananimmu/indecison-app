@@ -10,7 +10,7 @@
     "convert": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "dev-server": "webpack-dev-server",
     "start":"node server/server.js",
-    "heroku-postbuild": "npm run build:prod" 
+    "heroku-postbuild": "npm run build" 
   },
   "author": "chandu",
   "license": "ISC",
